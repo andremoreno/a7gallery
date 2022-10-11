@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[dev]
+  framework = "hugo"
+  command = "hugo server --disableFastRender --gc --minify"
+
+[deploy]
+  command = "netlify deploy --prod --dir=public"
+
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
