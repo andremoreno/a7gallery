@@ -4,7 +4,10 @@ languageCode  = "en-us"
 
 title        = "Through the lens of A7 x VSCO"
 
+# disableHugoGeneratorInject = false
+
 disableKinds = ["section", "taxonomy", "term"]
+
 
 
 [params]
@@ -57,4 +60,4 @@ description = "Through the lens of A7 x VSCO"
         source = 'content/images'
         target = 'content/images'
     [[module.imports]]
-        path = "github.com/bep/gallerydeluxe"
+        path = "github.com/andremoreno/gallerydeluxe"

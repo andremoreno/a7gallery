@@ -2,4 +2,4 @@ module a7gallery
 
 go 1.19
 
-require github.com/bep/gallerydeluxe v0.7.0 // indirect
+require github.com/andremoreno/gallerydeluxe v0.1.0 // indirect
