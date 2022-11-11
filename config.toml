@@ -2,7 +2,7 @@ baseURL      = "https://a7.andremoreno.com/"
 
 languageCode  = "en-us"
 
-title        = "Through the lens of A7 x VSCO"
+title        = "Through the lens of My Phone"
 
 # disableHugoGeneratorInject = false
 
@@ -11,13 +11,13 @@ disableKinds = ["section", "taxonomy", "term"]
 
 
 [params]
-description = "Through the lens of A7 x VSCO"
+description = "Through the lens of My Phone"
     [params.gallerydeluxe]
         # Shuffle the images in the gallery to give the impression of a new gallery each page load.
-        shuffle = false
+        shuffle = true
 
         # Reverse the order of the images in the gallery.
-        reverse = true
+        reverse = false
 
         # Enable Exif data in the gallery.
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
